@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<favoriteactor>
+<a-list>
+<actor>Leonardo DiCaprio</actor>
+<actor>Matt Damon</actor>
+<actor>Meryl Streep</actor>
+</a-list>
+
+<b-list>
+<actor>Nicholas Cage</actor>
+<actor>Jon Hamm</actor>
+<actor>Vera Farmiga</actor>
+</b-list>
+
+<c-list>
+<actor>Jennifer Love Hewitt</actor>
+<actor>Magic Johnson</actor>
+<actor>Howie Mandel</actor>
+</c-list>
+
+<d-list>
+<actor>Ian Somerhalder</actor>
+<actor>Jaleel White</actor>
+<actor>Vin Diesel</actor>
+</d-list>
+</favoriteactor>

@@ -1,0 +1,18 @@
+CACHE MANIFEST
+# v1 2016-09-18
+# This is a comment
+index.html
+cache.html
+style.css
+logo.png
+img.jpg
+
+NETWORK:
+doc.php
+
+# Fallback content
+FALLBACK:
+logo.png
+images/ images/*
+/ fallback.html
+

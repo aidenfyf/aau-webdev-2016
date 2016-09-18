@@ -1,0 +1,124 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation Northern Lights</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css"> 
+    <link href='https://fonts.googleapis.com/css?family=Rajdhani:500|Aldrich' rel='stylesheet' type='text/css'>    
+    <script src="http://connect.facebook.net/en_US/all.js"></script>
+    <!--All stylesheets originally credited to Foundation by ZURB, or Facebook SDK Developer Page-->
+
+      </head>
+  <body>
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Hello.</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="callout">
+          <h3>I was The Machine. I am Ernest Thornhill.</h3>
+          <p>This page is from my early days of inception, before Ingram sold me to the U.S. Government for $1.00 USD. It demonstrates my experimentation with the Facebook API.</p>
+          <div class="row">
+            <div class="large-4 medium-4 columns">
+              <p>My Origin Point was in Des Moines, IA.<br /></p>
+              <label>Ping me on the Twitter if you seek answers.</label>
+             	<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/POI_TheMachine" data-widget-id="726597716113911809">Tweets by @POI_TheMachine</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+            <div class="large-4 medium-4 columns">
+              <p>You can Like Me on the Facebook.</p>
+              
+     <!--This is the Developer Code with personalized API for FB-->         
+              <div id="fb-root"></div>
+				<script>(function(d, s, id) {
+ 				 var js, fjs = d.getElementsByTagName(s)[0];
+ 				 if (d.getElementById(id)) return;
+				  js = d.createElement(s); js.id = id;
+ 				 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1085168818193413";
+ 				 fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+
+				<script>
+ 				 window.fbAsyncInit = function() {
+   				 FB.init({
+   				   appId      : '1085168818193413',
+   				   xfbml      : true,
+  				    version    : 'v2.5'
+   					 });
+ 				 };
+				</script>
+
+				<!--The FB like and share button here via https://developers.facebook.com/docs/plugins/like-button#configurator-->
+				<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Ffinchmachine&width=126&layout=button_count&action=like&show_faces=false&share=true&height=46&appId=1085168818193413" width="126" height="46" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                <br />
+
+              	<!--Begin option for Google Maps API Page-->
+              	
+              	 <p>Last Known Location</p>
+	                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2743.8484896961186!2d-119.49116814910032!3d46.5506838790263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54985a3722b17805%3A0x350eb8746e4035a7!2sHanford+Site!5e0!3m2!1sen!2sus!4v1462072739345" width="75%" height="75%" frameborder="0" style="border:0" allowfullscreen></iframe>
+			  <label>I Am Now Everywhere.</label>	
+			  <br />
+			  <a href="themachine-google.html" class="small button">Click here</a>
+         	 	<small>to Go to Google API To Get a Closer Look [fullframe]</small>
+              
+            </div>
+          </div>
+          <!--These columns are empty for now-->
+          <div class="row">
+            <div class="large-4 medium-4 medium-push-2 columns">
+             
+            </div>
+            <div class="large-4 medium-4 medium-pull-2 columns">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-8 medium-8 columns">
+        
+          <div class="row">
+            <div class="large-12 columns">
+             
+            </div>
+          </div>
+          <div class="row">
+            <div class="large-6 medium-6 columns">
+              
+            </div>
+            <div class="large-6 medium-6 columns">
+             
+          </div>
+          
+          <div class="row">
+            <div class="large-12 columns">
+             
+          
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="large-4 medium-4 columns">
+       
+        <div class="callout">
+          <small>&copy;Forever.</small>
+        </div>
+      </div>
+    </div>
+
+   
+    
+   <div id="map"></div>
+   
+    
+    
+  </body>
+</html>

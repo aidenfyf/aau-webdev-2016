@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<link href='css/style.css' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">
+var JSONObject = {
+"brand":"American Eagle Outfitters",
+"price":"USD",
+"product":"Selvedge Jeans"};
+document.getElementById("companybrand").innerHTML=JSONObject.brand
+document.getElementById("companyprice").innerHTML=JSONObject.price
+document.getElementById("companyproduct").innerHTML=JSONObject.product
+</script>
+</head>
+
+<body>
+  <h2>Exercise 11.1: Exploring JSON and XML</h2>
+  <p>
+  Company: <span id="brand">AEO</span><br />
+  Price: <span id="price">89.99 USD</span><br />
+  Product Line: <span id="product">Active Flex Slim</span><br />
+  </p>
+  
+  <img src="img/jeans-jump.jpg" alt="selvedge jeans" width="75%" height="75%">
+</body>
+
+</html>
